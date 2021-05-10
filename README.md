@@ -1,2 +1,2 @@
 # DSA
- Questions solved from various platforms
+ Codes to Data Structures and Algorithms questions from various websites like codechef, leetcode, GFG etc, that I had solved  
