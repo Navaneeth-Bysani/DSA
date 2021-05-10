@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#Notes etc
+/notes.txt
+*.exe
