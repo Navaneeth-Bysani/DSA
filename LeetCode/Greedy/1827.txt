@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int minOperations(vector<int>& nums) {
+        int total = 0;
+        int n = nums.size();
+        if(n == 0 || n == 1) {
+            return 0;
+        }
+        int x = nums[0];
+        for(int i = 1; i<n; i++) {
+            if(nums[i]<=x) {
+                total += x-nums[i]+1;
+                nums[i] = x + 1;
+            }
+            x = nums[i];
+        }
+        return total;
+    }
+};
