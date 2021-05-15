@@ -34,3 +34,6 @@
 #Notes etc
 /notes.txt
 *.exe
+
+#Images
+/imgs
